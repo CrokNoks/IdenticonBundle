@@ -1,0 +1,812 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <parameters>
+        <parameter key="cn_identicon" type="collection">
+            <parameter key="shapes" type="collection">
+                <parameter key="border" type="collection">
+                    <parameter type="collection" id="full triangle">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection" id="semi triangle">
+                        <parameter key="points" type="collection">
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection" id="losange">
+                        <parameter key="points" type="collection">
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection" id="mouse ears">
+                        <parameter key="points" type="collection">
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection" id="ribbon">
+                        <parameter key="points" type="collection">
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection" id="voile">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection" id="fanion">
+                        <parameter key="points" type="collection">
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection" id="beak">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                        </parameter>
+                    </parameter>
+                </parameter>
+                <parameter key="center" type="collection">
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0.25</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0.33</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0.67</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0.66</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0.67</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0.33</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.33</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0.25</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.25</parameter>
+                        </parameter>
+                    </parameter>
+                    <parameter type="collection">
+                        <parameter key="points" type="collection">
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>0</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.5</parameter>
+                            <parameter>0.75</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0.25</parameter>
+                            <parameter>1</parameter>
+                            <parameter>0</parameter>
+                        </parameter>
+                    </parameter>
+                </parameter>
+            </parameter>
+        </parameter>
+    </parameters>
+</container>

@@ -1,0 +1,30 @@
+{
+    "name" : "CrokNoks/Identiconbundle",
+    "description" : "An identicon generator bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "croknoks",
+        "email" : "croknoks@gmail.com"
+    }],
+    "keywords" : [
+        "identicon"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "CrokNoks\\Identiconbundle" : ""
+        }
+    },
+    "target-dir" : "CrokNoks/Identiconbundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "0.1-dev"
+        }
+    }
+}

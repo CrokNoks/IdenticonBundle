@@ -1,0 +1,18 @@
+<routes xmlns="http://symfony.com/schema/routing"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://symfony.com/schema/routing
+        http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="identicon_show_size_option"
+           path="/identicon/{slug}-{width}x{height}-{options}"
+           controller="App\Croknoks\IdenticonBundle\Controller\IdenticonController::show">
+    </route>
+    <route id="identicon_show_size"
+           path="/identicon/{slug}-{width}x{height}"
+           controller="App\Croknoks\IdenticonBundle\Controller\IdenticonController::show">
+    </route>
+    <route id="identicon_show_default"
+           path="/identicon/{slug}"
+           controller="App\Croknoks\IdenticonBundle\Controller\IdenticonController::show">
+    </route>
+</routes>
